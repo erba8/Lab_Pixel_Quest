@@ -157,6 +157,8 @@ MonoBehaviour:
   varOne: 9
   xSpeed: 5
   nextLevel: Scene_2
+  nextLevel2: Scene_3
+  nextLevel3: Scene_2
 --- !u!212 &803103810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -296,6 +298,67 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &908891068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6401722316011726606, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_Name
+      value: Hexagon Flat-Top
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401722316011726606, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_TagString
+      value: re
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046081087666634221, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a52f6fda4943864d820c22beecde756, type: 3}
 --- !u!1 &1060103756
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +395,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 0.61960787, b: 0.8826368, a: 0}
+  m_BackGroundColor: {r: 1, g: 0.61960787, b: 0.82504845, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -659,3 +722,4 @@ SceneRoots:
   - {fileID: 803103811}
   - {fileID: 2000932246}
   - {fileID: 1257034658}
+  - {fileID: 908891068}
