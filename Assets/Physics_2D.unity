@@ -466,13 +466,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1772365190742462286, guid: f16c7714de5a30f41ae7e38c061a5c99, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6113907916332216341, guid: f16c7714de5a30f41ae7e38c061a5c99, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.4212055
+      value: 15.05
       objectReference: {fileID: 0}
     - target: {fileID: 6113907916332216341, guid: f16c7714de5a30f41ae7e38c061a5c99, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.211791
+      value: -6.91
       objectReference: {fileID: 0}
     - target: {fileID: 6113907916332216341, guid: f16c7714de5a30f41ae7e38c061a5c99, type: 3}
       propertyPath: m_LocalPosition.z
@@ -771,6 +775,10 @@ PrefabInstance:
     - target: {fileID: 3133657937068866456, guid: e8df024a3995adc4ea4cee1528ba3062, type: 3}
       propertyPath: m_Name
       value: Triangle Variant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039263136552218324, guid: e8df024a3995adc4ea4cee1528ba3062, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 230
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1101,6 +1109,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2715160518028407097, guid: 32707eece101e3c4f8e5a69c2a278148, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5421703170651284597, guid: 32707eece101e3c4f8e5a69c2a278148, type: 3}
       propertyPath: m_Name
       value: Triangle Variant
@@ -1334,7 +1346,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 0.9751753, b: 0.7294118, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1542,7 +1554,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1622,6 +1634,10 @@ PrefabInstance:
     - target: {fileID: 2680596630807754443, guid: 4e271bbd51a3e6d41a0fa4b1cfd94b99, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598459283167070608, guid: 4e271bbd51a3e6d41a0fa4b1cfd94b99, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2136,11 +2152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4322998108101753994, guid: b3ac27058a01a724f8c42af50b803b76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.83
+      value: 13.11
       objectReference: {fileID: 0}
     - target: {fileID: 4322998108101753994, guid: b3ac27058a01a724f8c42af50b803b76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.72
+      value: -2.65
       objectReference: {fileID: 0}
     - target: {fileID: 4322998108101753994, guid: b3ac27058a01a724f8c42af50b803b76, type: 3}
       propertyPath: m_LocalPosition.z

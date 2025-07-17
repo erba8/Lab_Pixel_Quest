@@ -18,6 +18,8 @@ public class GeoController : MonoBehaviour
     public string lastLevel = "Level_3";
     public string end = "End";
     public SpriteRenderer sr;
+
+
     void Start()// Start is called before the first frame update
     {
         rb = GetComponent<Rigidbody2D>();
