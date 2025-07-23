@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,13 +10,13 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,10 +41,11 @@ public class PlayerStats : MonoBehaviour
                     {
                         transform.position = RespawnPoint.position;
                     }
-                        break;
+                    break;
                 }
             case "Finish":
                 {
+                    string nextLevel = collision.GetComponent<LevelGoal>().nextLevel;
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }
@@ -58,13 +57,17 @@ public class PlayerStats : MonoBehaviour
                 }
             case "Health":
                 {
-                    
                     if (health < 3)
                     {
                         health++;
                         Destroy(collision.gameObject);
                     }
                     break;
+                }
+            case "Respawn":
+                {
+                   RespawnPoint.position = collision.transform.Find("Point").position;
+                   break;
                 }
         }
     }
