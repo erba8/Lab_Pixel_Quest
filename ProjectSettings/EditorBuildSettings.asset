@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Level_1.unity
+    path: Assets/Geo_Quest/Scenes/Level_10.unity
     guid: 1f78e2094b2eb67408eb0d89817b1d1b
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Level_2.unity
+    path: Assets/Geo_Quest/Scenes/Level_20.unity
     guid: 102aaf5f0e1a37e41aa7df525f528d17
   - enabled: 1
-    path: Assets/Geo_Quest/Scenes/Level_3.unity
+    path: Assets/Geo_Quest/Scenes/Level_30.unity
     guid: d40c2783881760e46b1adb75d1d41965
   - enabled: 1
     path: Assets/Geo_Quest/Scenes/End.unity
     guid: 7e7206ac81970664898c6252d03bc4c8
+  - enabled: 1
+    path: Assets/Pixel_Quest/Scenes/Menu.unity
+    guid: 9194a4b5c6e9f8a4b924379ae168a43c
+  - enabled: 1
+    path: Assets/Pixel_Quest/Scenes/Level_1.unity
+    guid: f3cc5755a7b864a49822472fa2cb9533
   m_configObjects: {}

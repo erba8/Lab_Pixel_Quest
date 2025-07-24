@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8187788546050671827}
   - component: {fileID: 6647266688031506226}
   - component: {fileID: 6722065267042286832}
+  - component: {fileID: -5460156392470268922}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -155,6 +156,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: GeoLevel_2
+  counter: 0
+  health: 3
+  maxHealth: 3
   RespawnPoint: {fileID: 0}
 --- !u!114 &8187788546050671827
 MonoBehaviour:
@@ -210,6 +214,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5460156392470268922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100584530988263834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66537b02f073c2940a8aba175174ccf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinSFX: {fileID: 0}
+  checkPointSFX: {fileID: 0}
+  heartSFX: {fileID: 0}
+  deathSFX: {fileID: 0}
 --- !u!1 &8413370229498405810
 GameObject:
   m_ObjectHideFlags: 0
