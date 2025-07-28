@@ -41,7 +41,7 @@ public class PlayerStats : MonoBehaviour
                     //string thisLevel = SceneManager.GetActiveScene().name;
                     //
                     health--;
-                    audioController.PlayAudio("death");
+                    audioController.PlayAudio("DeathSFX");
                     playerUIControl.UpdateHealth(health, maxHealth);
                     if (health <= 0)
                     {
@@ -63,7 +63,7 @@ public class PlayerStats : MonoBehaviour
             case "Coin":
                 {
                     counter++;
-                    audioController.PlayAudio("coin");
+                    audioController.PlayAudio("CoinSFX");
                     playerUIControl.UpdateCoinText(counter +"/" + coinsInLevel);
                     Destroy(collision.gameObject);
                     break;
